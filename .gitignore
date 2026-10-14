@@ -1,0 +1,26 @@
+# build output
+build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+local.properties
+captures/
+
+# signing
+*.jks
+*.keystore
+keystore.properties
+
+# NEVER publish: proprietary vendor files, decompiled sources, personal ride data
+*.apk
+*.aab
+*.apkm
+jadx*/
+decompiled/
+logs/
+*.jsonl
+*.pdf
+*.heic
+*.csv
+rides/

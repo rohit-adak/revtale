@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Black window so cold start flows straight into the in-app intro. -->
+    <style name="Theme.RevTale" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/night</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <!-- Invisible screen that only hands a tap (widget, tile) on to Google Maps. -->
+    <style name="Theme.RevTale.Invisible" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <color name="night">#FF0B0B0C</color>
+</resources>

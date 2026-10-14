@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Files the app hands to other apps (share a ride, a bug report; the camera writing a parking photo). -->
+<paths>
+    <cache-path name="share" path="share/" />
+    <files-path name="parking" path="parking/" />
+</paths>

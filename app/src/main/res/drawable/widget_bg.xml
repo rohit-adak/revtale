@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget card: near-black with a faint red glow in the top corner, like the app's cards. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="315" android:startColor="#FF16161A" android:endColor="#FF0B0B0C" />
+            <corners android:radius="@android:dimen/system_app_widget_background_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:type="radial" android:centerX="1" android:centerY="0" android:gradientRadius="220dp"
+                android:startColor="#33E5202E" android:endColor="#00E5202E" />
+            <corners android:radius="@android:dimen/system_app_widget_background_radius" />
+        </shape>
+    </item>
+</layer-list>

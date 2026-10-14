@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">Your bike: connected or not, where it\'s parked, and one tap to ride home.</string>
+    <string name="tile_label">RevTale</string>
+</resources>
